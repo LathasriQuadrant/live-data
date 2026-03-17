@@ -60,7 +60,10 @@ app = FastAPI(
 # Add CORS FIRST, before routes
 app.add_middleware(
     CORSMiddleware,
-    allow_origins     = ["https://id-preview--1115fb10-6ea8-4052-8d1b-31238016c02e.lovable.app"],
+    allow_origins = [
+    "https://id-preview--1115fb10-6ea8-4052-8d1b-31238016c02e.lovable.app",
+    "https://reportmigration-frontend-g9ceape5ddgxa5gq.eastus-01.azurewebsites.net"
+    ],
     allow_credentials = True,
     allow_methods     = ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allow_headers     = ["*"],
