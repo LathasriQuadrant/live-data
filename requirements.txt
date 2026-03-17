@@ -1,0 +1,29 @@
+fastapi
+gunicorn 
+uvicorn[standard]
+python-dotenv
+requests
+pandas
+pyarrow
+deltalake          # delta-rs: write Delta tables to OneLake without Spark
+azure-storage-blob
+pyodbc
+snowflake-connector-python
+databricks-sql-connector==3.0.2
+
+# .hyper file reading — install one:
+pantab                # recommended (simpler, wraps tableauhyperapi)
+tableauhyperapi     # official Tableau SDK (auto-used if pantab absent)
+
+# ── Refresh / Scheduling ──────────────────────────────────────
+apscheduler>=3.10.0          # background scheduler for automatic refresh
+cryptography>=41.0.0         # Fernet AES-256 encryption for stored passwords
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,94 @@
+{
+  "azure_datasource": {
+    "workbook_name": "azure_datasource",
+    "file_name": "azure_datasource.twbx",
+    "container_name": "tabluea-raw",
+    "workspace_id": "b14b9cea-f503-499e-a1de-29a37c33d941",
+    "lakehouse_id": "f4b22027-7cbd-4b89-b376-2b78e2c78544",
+    "lakehouse_name": "azure_datasource",
+    "data_mode": "live",
+    "source_type": "azuresql",
+    "tables": [
+      "Orders",
+      "OrderItems",
+      "Inventories",
+      "Customers",
+      "Products"
+    ],
+    "encrypted_password": "gAAAAABpnXm26wJhkBOnWqD8Nc6Y707dp7rjgqa4-CJQ7YE4FW9C-hMTmfw_p7XeVTuKnMOuO47IQSTl-0_zjNLf8PBCeS1tkg==",
+    "powerbi_dataset_id": null,
+    "connection_details": {
+      "server": "tableau-to-powerbi.database.windows.net",
+      "database": "reportmigration-datasource",
+      "username": "lathasri",
+      "is_azure": true
+    },
+    "enable_scheduled_refresh": false,
+    "refresh_interval_minutes": 5,
+    "last_migrated_at": "2026-02-24T10:13:10.215443+00:00",
+    "last_refreshed_at": "2026-02-24T10:20:09.527977+00:00",
+    "last_refresh_status": "success",
+    "last_refresh_error": null,
+    "refresh_count": 1,
+    "migration_type": "tableau"
+  },
+  "santosh_report": {
+    "workbook_name": "santosh_report",
+    "file_name": "santosh_report.twbx",
+    "container_name": "tabluea-raw",
+    "workspace_id": "b14b9cea-f503-499e-a1de-29a37c33d941",
+    "lakehouse_id": "9e2cece1-d0a3-4d9b-82fd-0fa4d436ea7a",
+    "lakehouse_name": "santosh_report",
+    "data_mode": "live",
+    "source_type": "snowflake",
+    "tables": [
+      "ORDERS",
+      "CUSTOMERS",
+      "FACT"
+    ],
+    "encrypted_password": "gAAAAABpnX3S4G7u_8-sh6Y2lHlnj_18YrjRZasWRSo14rz6702TvZlG-FypTQ2deiiSACTpmzcfPHUGw_2SHZSUv3Ev5hLRng==",
+    "powerbi_dataset_id": null,
+    "connection_details": {
+      "server": "psdemhq-qt70826.snowflakecomputing.com",
+      "account": "psdemhq-qt70826",
+      "database": "SANTOSH_DB",
+      "schema": "PUBLIC",
+      "warehouse": "COMPUTE_WH",
+      "username": "SANTOSHKUMAR"
+    },
+    "enable_scheduled_refresh": false,
+    "refresh_interval_minutes": null,
+    "last_migrated_at": "2026-02-24T10:30:42.813301+00:00",
+    "last_refreshed_at": null,
+    "last_refresh_status": null,
+    "last_refresh_error": null,
+    "refresh_count": 0,
+    "migration_type": "tableau"
+  },
+  "RelationXmlaWorkbook": {
+    "workbook_name": "RelationXmlaWorkbook",
+    "file_name": "RelationXmlaWorkbook.twbx",
+    "container_name": "tabluea-raw",
+    "workspace_id": "b14b9cea-f503-499e-a1de-29a37c33d941",
+    "lakehouse_id": "1a453434-1ec6-44c9-a6dd-6d11a1f6f42e",
+    "lakehouse_name": "RelationXmlaWorkbook",
+    "data_mode": "extracted",
+    "source_type": "hyper",
+    "tables": [
+      "sales",
+      "products",
+      "customers"
+    ],
+    "encrypted_password": null,
+    "powerbi_dataset_id": null,
+    "connection_details": {},
+    "enable_scheduled_refresh": false,
+    "refresh_interval_minutes": null,
+    "last_migrated_at": "2026-02-24T10:33:16.843920+00:00",
+    "last_refreshed_at": null,
+    "last_refresh_status": null,
+    "last_refresh_error": null,
+    "refresh_count": 0,
+    "migration_type": "tableau"
+  }
+}

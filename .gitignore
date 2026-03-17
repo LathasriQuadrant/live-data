@@ -1,0 +1,74 @@
+# ======================
+# 🔐 Secrets / Env
+# ======================
+.env
+.env.*
+*.pem
+*.key
+*.crt
+config.yaml
+secrets.json
+
+# ======================
+# 🐍 Python
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+.venv/
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ======================
+# 🟩 Node (if any)
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================
+# 📦 Build / Dist
+# ======================
+dist/
+build/
+target/
+*.jar
+*.war
+
+# ======================
+# 🐳 Docker
+# ======================
+.dockerignore
+
+# ======================
+# 📊 Data files (important for your case)
+# ======================
+*.csv
+*.parquet
+*.feather
+*.xlsx
+*.jsonl
+
+# If you have large datasets:
+data/
+datasets/
+
+# ======================
+# 🧠 IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# 🖥️ OS files
+# ======================
+.DS_Store
+Thumbs.db
